@@ -1,5 +1,5 @@
 .side-bar {
-  background-color: rgb(216, 239, 239);
+  background-color: rgb(92, 100, 175);
   width: 20rem;
   height: 100vh;
 }
@@ -7,5 +7,33 @@
 .header {
   color: hotpink;
   text-align: center;
-  padding-top: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.projects-header {
+  color: hotpink;
+  margin-bottom: 20px;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.project-container p {
+  font-size: 20px;
+  color: aqua;
+}
+
+.project-container p:hover {
+  color: yellow;
 }

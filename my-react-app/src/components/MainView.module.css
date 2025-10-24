@@ -1,3 +1,40 @@
 .main {
   height: 100vh;
+  width: 80rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.task-header {
+  background-color: gray;
+  height: 79px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+
+.add-task-btn {
+  background-color: aqua;
+  width: 60px;
+  height: 30px;
+  border: none;
+  border-radius: 2px;
+}
+
+.task-list {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+  gap: 20px;
+}
+
+.task-list li {
+  font-size: 30px;
+  width: 90px;
+  border: 3px solid rgb(57, 57, 202);
 }

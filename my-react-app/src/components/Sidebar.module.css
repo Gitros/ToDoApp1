@@ -1,0 +1,11 @@
+.side-bar {
+  background-color: rgb(216, 239, 239);
+  width: 20rem;
+  height: 100vh;
+}
+
+.header {
+  color: hotpink;
+  text-align: center;
+  padding-top: 20px;
+}
